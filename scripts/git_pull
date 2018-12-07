@@ -2,15 +2,21 @@
 
 #eval `ssh-agent` # use only if this is not in ~/.bashrc script
 keys_added=`ssh-add -L | grep "ssh-rsa"`
+cur_path=`echo $PWD`
 
+echo "teste $cur_path" >> /home/jair/dev/git_pull.log
+cd $cur_path
 if [ "x$keys_added" = "x" ]; then
+    echo "ssh-adding" >> /home/jair/dev/git_pull.log
     ssh-add
 fi
 
+echo "before pull" >> /home/jair/dev/git_pull.log
 git stash save
 sleep 1
 git pull
 sleep 1
 git stash pop
+echo "after pull" >> /home/jair/dev/git_pull.log
 
 exit 0
