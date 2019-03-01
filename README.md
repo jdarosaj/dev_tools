@@ -15,3 +15,7 @@ Colorize grep results:
 `alias grep='grep --color=auto'`
 
 
+Colorize ls command result:
+
+`alias ls='ls -lah --color=auto'`
+
