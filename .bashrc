@@ -120,7 +120,7 @@ export PATH=$PATH:/sbin:/home/jair/bin:/usr/sbin:/home/jair/dev/dev_tools/script
 alias grep='grep --color=auto'
 alias grep-pattern='grep --line-number -R --color --after-context=2 --before-context=2'
 alias git_pull='git pull --recurse-submodules'
-alias wheater='curl wttr.in'
+alias wheater='curl wttr.in/~UFSC'
 
 wallpaper_reload > /dev/null 2>&1
 wallpaper_resort > /dev/null 2>&1
