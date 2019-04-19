@@ -76,12 +76,12 @@ esac
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls -lah --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
 
-    #alias grep='grep --color=auto'
-    #alias fgrep='fgrep --color=auto'
-    #alias egrep='egrep --color=auto'
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
 fi
 
 # colored GCC warnings and errors
@@ -90,7 +90,7 @@ fi
 # some more ls aliases
 alias ll='ls -l'
 alias lh='ls -lh'
-#alias la='ls -A'
+alias la='ls -A'
 #alias l='ls -CF'
 
 # Alias definitions.
@@ -117,7 +117,6 @@ fi
 #user defined
 export PATH=$PATH:/sbin:/home/jair/bin:/usr/sbin:/home/jair/dev/dev_tools/scripts
 
-alias grep='grep --color=auto'
 alias grep-pattern='grep --line-number -R --color --after-context=2 --before-context=2'
 alias git_pull='git pull --recurse-submodules'
 alias wheater='curl wttr.in/~UFSC'
