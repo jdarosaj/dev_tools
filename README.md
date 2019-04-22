@@ -19,3 +19,7 @@ Colorize ls command result:
 
 `alias ls='ls -lah --color=auto'`
 
+
+## pycharm and webstorm cursor focus problem
+
+Adding `suppress.focus.stealing=false` to `Help | Edit Custom Properties` fixes the missing cursor issue when re-focusing under the i3 tiling windows manager.
