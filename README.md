@@ -44,3 +44,15 @@ Next music (spotify):
 Previous Music (spotify):
 `dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous`
 
+
+## Git keeps asking passphrase when pushing ou pulling repository
+
+Add in file `~/.ssh/config` the following content:
+```
+Host *
+   IgnoreUnknown AddKeysToAgent,UseKeychain
+   AddKeysToAgent yes
+   UseKeychain yes
+   IdentityFile ~/.ssh/id_rsa
+```
+
