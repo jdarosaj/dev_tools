@@ -23,3 +23,24 @@ Colorize ls command result:
 ## pycharm and webstorm cursor focus problem
 
 Adding `suppress.focus.stealing=false` to `Help | Edit Custom Properties` fixes the missing cursor issue when re-focusing under the i3 tiling windows manager.
+
+## Configuring hotkeys on keyboard
+
+Increase volume:
+`pactl -- set-sink-volume 0 +10%`
+
+Decrease volume:
+`pactl -- set-sink-volume 0 -10%`
+
+Mute sound:
+`pactl set-sink-mute 0 toggle`
+
+Play/Pause toggle (spotify):
+`dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause`
+
+Next music (spotify):
+`dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next`
+
+Previous Music (spotify):
+`dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous`
+
