@@ -59,3 +59,10 @@ Host *
 ## Debian volume problems
 
 `https://chrisjean.com/fix-for-usb-audio-is-too-loud-and-mutes-at-low-volume-in-ubuntu/`
+
+
+## To install
+
+`apt install -y net-tools nodejs npm htop build-essential python3-dev python-dev checkinstall apt-transport-https ca-certificates curl postgresql deb-multimedia-keyring ssh git i3`
+
+
