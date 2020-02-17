@@ -1,5 +1,5 @@
 #!/bin/bash
 
-/home/jair/bin/krawall.sh --hacker -s
-/home/jair/bin/krawall.sh --hacker -r
-feh --bg-scale "../wallpapers/1.jpg"
+/home/jair/dev_tools/scripts/krawall.sh --hacker -s
+/home/jair/dev_tools/scripts/krawall.sh --hacker -r
+feh --bg-scale "/home/jair/dev_tools/wallpapers/1.jpg"
