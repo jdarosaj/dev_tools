@@ -20,7 +20,7 @@
 set -e
 
 # Set the path to your own wallpaper directory
-WALLPAPER_PATH="/home/jair/wallpapers/"
+WALLPAPER_PATH="/home/jair/dev/dev_tools/wallpapers/"
 
 
 #########################################################
