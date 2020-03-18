@@ -1,3 +1,4 @@
 #!/bin/bash
 
 /home/jair/dev/dev_tools/scripts/krawall.sh --next --hacker
+/home/khomp/dev/dev_tools/scripts/krawall.sh --next --hacker

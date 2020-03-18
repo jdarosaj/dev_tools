@@ -3,3 +3,7 @@
 /home/jair/dev/dev_tools/scripts/krawall.sh --hacker -s
 /home/jair/dev/dev_tools/scripts/krawall.sh --hacker -r
 feh --bg-scale "/home/jair/dev/dev_tools/wallpapers/1.jpg"
+
+/home/khomp/dev/dev_tools/scripts/krawall.sh --hacker -s
+/home/khomp/dev/dev_tools/scripts/krawall.sh --hacker -r
+feh --bg-scale "/home/khomp/dev/dev_tools/wallpapers/1.jpg"

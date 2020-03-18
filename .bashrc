@@ -115,7 +115,7 @@ fi
 
 
 #user defined
-export PATH=$PATH:/sbin:/home/jair/bin:/usr/sbin:/home/jair/dev/dev_tools/scripts
+export PATH=$PATH:/sbin:/home/jair/bin:/usr/sbin:/home/jair/dev/dev_tools/scripts:/home/jair/.yarn/bin:/home/khomp/dev/dev_tools/scripts
 
 alias grep-pattern='grep --line-number -R --color --after-context=2 --before-context=2'
 alias git_pull='git pull --recurse-submodules'
@@ -127,3 +127,4 @@ wallpaper_resort > /dev/null 2>&1
 
 SSH_ENV=$HOME/.ssh/environment
 
+export APPS_PATH=/opt
