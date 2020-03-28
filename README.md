@@ -56,6 +56,10 @@ Host *
    IdentityFile ~/.ssh/id_rsa
    ServerAliveInterval 240
 ```
+## Set vim as default editor
+`sudo update-alternatives --config editor`
+(3 vim.basic)
+
 
 ## Debian volume problems
 
