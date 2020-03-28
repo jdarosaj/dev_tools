@@ -67,3 +67,59 @@ Host *
 
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
+
+### Docker Install
+
+```bash
+sudo apt-get update
+
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+sudo apt-get update
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+#### Post Installation Docker
+
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker 
+docker run hello-world
+sudo systemctl enable docker
+```
+
+##### Change or create file `/etc/docker/daemon.json`
+
+```
+{
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+  }
+}
+```
+and after execute `sudo systemctl restart docker`
+
+
+### Docker-compose install
+
+```
+sudo curl -L --fail https://github.com/docker/compose/releases/latest/download/run.sh -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
