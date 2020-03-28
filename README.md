@@ -54,6 +54,7 @@ Host *
    AddKeysToAgent yes
    UseKeychain yes
    IdentityFile ~/.ssh/id_rsa
+   ServerAliveInterval 240
 ```
 
 ## Debian volume problems
