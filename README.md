@@ -129,7 +129,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ## Useful tools
 
-https://www.dbdesigner.net/ - Relational databases modelage
+https://www.dbdesigner.net/ - Relational databases modelage\
 https://trello.com/ - Tasks organization in boards
 
 
