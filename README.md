@@ -125,3 +125,11 @@ sudo curl -L --fail https://github.com/docker/compose/releases/latest/download/r
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
+
+
+## Useful tools
+
+https://www.dbdesigner.net/ - Relational databases modelage
+https://trello.com/ - Tasks organization in boards
+
+
