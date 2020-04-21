@@ -133,3 +133,8 @@ https://www.dbdesigner.net/ - Relational databases modelage\
 https://trello.com/ - Tasks organization in boards
 
 
+
+## Useful commands
+
+`ssh-keygen -t rsa -C "your_email@example.com"` - generate a new ssh key pair
+
