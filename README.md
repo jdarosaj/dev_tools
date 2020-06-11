@@ -22,7 +22,7 @@ Colorize ls command result:
 
 ## pycharm and webstorm cursor focus problem
 
-Adding `suppress.focus.stealing=false` to `Help | Edit Custom Properties` fixes the missing cursor issue when re-focusing under the i3 tiling windows manager.
+Adding `suppress.focus.stealing=false` and `suppress.focus.stealing.disable.auto.request.focus=false` to `Help | Edit Custom Properties` fixes the missing cursor issue when re-focusing under the i3 tiling windows manager.
 
 ## Configuring hotkeys on keyboard
 
