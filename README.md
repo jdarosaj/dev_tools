@@ -68,7 +68,7 @@ Host *
 
 ## To install
 
-`apt install -y net-tools nodejs npm htop build-essential python3-dev python-dev apt-transport-https ca-certificates curl ssh git i3 virtualbox tcpdump lsof cifs-utils smbclient zsh tmux`
+`apt install -y net-tools nodejs npm htop build-essential python3-dev python-dev apt-transport-https ca-certificates curl ssh git i3 virtualbox tcpdump lsof cifs-utils smbclient zsh tmux psmisc`
 
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
