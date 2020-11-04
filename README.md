@@ -143,5 +143,5 @@ https://trello.com/ - Tasks organization in boards
 `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p` - Increase watchers in debian - Error in expo-cli (ENOSPC: System limit for number of file watchers reached)
 
 ## Really cool tutorials repo
-https://github.com/danistefanovic/build-your-own-x#build-your-own-database
+https://github.com/danistefanovic/build-your-own-x
 
