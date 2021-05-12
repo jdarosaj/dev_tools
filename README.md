@@ -144,5 +144,11 @@ https://trello.com/ - Tasks organization in boards
 
 ## Really cool tutorials repo
 generate unique ids JS easily - https://gist.github.com/gordonbrander/2230317
+
 https://github.com/danistefanovic/build-your-own-x
+
+
+
+## Apps names
+- MongoDB Compass
 
