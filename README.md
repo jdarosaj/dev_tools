@@ -136,6 +136,8 @@ https://trello.com/ - Tasks organization in boards
 
 ## Useful commands
 
+`export $(grep -v '^#' .env | xargs)` - export all variables from .env file to terminal
+
 `ssh-keygen -t rsa -C "your_email@example.com"` - generate a new ssh key pair
 
 `usermod -a -G sudo username` - Adding user to sudo group
