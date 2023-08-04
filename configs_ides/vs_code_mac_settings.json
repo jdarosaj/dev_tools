@@ -1,0 +1,41 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "npm.enableRunFromFolder": true,
+  "gitlens.codeLens.enabled": false,
+  "explorer.confirmDelete": false,
+  "editor.renderControlCharacters": true,
+  "nasc-touchbar.addCursorBelow": false,
+  "nasc-touchbar.rename": false,
+  "nasc-touchbar.showCommands": false,
+  "nasc-touchbar.copyLineDown": true,
+  "editor.tabSize": 2,
+  "editor.snippetSuggestions": "top",
+  "bracketPairColorizer.depreciation-notice": false,
+  "editor.accessibilitySupport": "off",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.quickSuggestionsDelay": 50,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "javascript.inlayHints.parameterNames.enabled": "none",
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "javascript.inlayHints.parameterTypes.enabled": false,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": false,
+  "javascript.inlayHints.variableTypes.enabled": false,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "editor.hover.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.maxComputationTime": 0,
+  "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "emeraldwalk.runonsave": {
+      "commands": [
+          {
+              "match": "\\.js$",
+              "cmd": "./node_modules/.bin/paypal-scripts format client/src/"
+          },
+      ]
+  },
+  "git.ignoreMissingGitWarning": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.env.osx": {},
+}

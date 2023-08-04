@@ -1,5 +1,29 @@
-# Dev tools
-Dev tools that I have to download in every computer that I use to work
+# Documentation for my workflow and tools
+Useful tools that I use on my my env and also softwares to install in every computer that I use for development
+## VS Code config
+- For Mac key bindings use the file `configs_ide/vs_code_mac_key_bindings.json`
+- For Mac config use the file `configs_ide/vs_code_mac_settings.json`
+
+## VS Code Extensions
+
+- Auto Rename tag - https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+- Auto close tag - https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
+- Color highlight - https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight
+- Eslint - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+- Figma for VS code - https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension
+- Git Lens - https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+- Indent rainbow - https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
+- JS JSX snippets - https://marketplace.visualstudio.com/items?itemName=skyran.js-jsx-snippets
+- Material icon theme - https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+- Prettier eslint - https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint
+- Run on save - https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave
+- Jest - https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
+
+## Useful tools
+
+https://www.dbdesigner.net/ - Relational databases modelage\
+https://trello.com/ - Tasks organization in boards
+
 
 ## Useful alias commands
 
@@ -8,7 +32,6 @@ Prints line number, context and colorize grep results:
 `alias grep-pattern='grep --line-number -R --color --after-context=3 --before-context=1'`
 
 Then use is as: `grep-pattern <pattern> <file(s)>`
-  
 
 Colorize grep results:
 
@@ -19,6 +42,24 @@ Colorize ls command result:
 
 `alias ls='ls -lah --color=auto'`
 
+
+## Useful commands
+
+`export $(grep -v '^#' .env | xargs)` - export all variables from .env file to terminal
+
+`ssh-keygen -t rsa -C "your_email@example.com"` - generate a new ssh key pair
+
+`usermod -a -G sudo username` - Adding user to sudo group
+
+`echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p` - Increase watchers in debian - Error in expo-cli (ENOSPC: System limit for number of file watchers reached)
+
+## Really cool tutorials repo
+generate unique ids JS easily - https://gist.github.com/gordonbrander/2230317
+
+https://github.com/danistefanovic/build-your-own-x
+
+
+----------------------
 
 ## pycharm and webstorm cursor focus problem
 
@@ -124,33 +165,3 @@ and after execute `sudo systemctl restart docker`
 sudo curl -L --fail https://github.com/docker/compose/releases/latest/download/run.sh -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
-
-
-
-## Useful tools
-
-https://www.dbdesigner.net/ - Relational databases modelage\
-https://trello.com/ - Tasks organization in boards
-
-
-
-## Useful commands
-
-`export $(grep -v '^#' .env | xargs)` - export all variables from .env file to terminal
-
-`ssh-keygen -t rsa -C "your_email@example.com"` - generate a new ssh key pair
-
-`usermod -a -G sudo username` - Adding user to sudo group
-
-`echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p` - Increase watchers in debian - Error in expo-cli (ENOSPC: System limit for number of file watchers reached)
-
-## Really cool tutorials repo
-generate unique ids JS easily - https://gist.github.com/gordonbrander/2230317
-
-https://github.com/danistefanovic/build-your-own-x
-
-
-
-## Apps names
-- MongoDB Compass
-
